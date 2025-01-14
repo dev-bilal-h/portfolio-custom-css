@@ -36,7 +36,7 @@ const Education: React.FC = () => {
                   Intermediate (Computer Science)
                 </h3>
                 <p className="timeline-description">
-                  Pursued college studies with Science (Engineering) at
+                  Pursued college studies with Science at
                   Government College Forman Nazimabad.
                 </p>
               </div>
