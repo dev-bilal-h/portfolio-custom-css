@@ -1,0 +1,45 @@
+/*footer styling*/
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 20px 0;
+  border-top: 2px solid #3194f0;
+  box-shadow: 0 4px 20px rgba(47, 229, 241, 0.616);
+  text-align: center;
+}
+
+/*Container*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/*link styling*/
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.link {
+  color: white;
+  font-family: serif;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+  background: linear-gradient(to right, #a855f7, #00bcd4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline;
+}
